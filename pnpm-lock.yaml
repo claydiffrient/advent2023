@@ -33,6 +33,30 @@ importers:
         specifier: ^17.7.2
         version: 17.7.2
 
+  days/three:
+    dependencies:
+      '@types/jest':
+        specifier: ^29.5.10
+        version: 29.5.10
+      jest-cli:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.10.2)
+      jest-junit:
+        specifier: ^16.0.0
+        version: 16.0.0
+
+  days/two:
+    dependencies:
+      '@types/jest':
+        specifier: ^29.5.10
+        version: 29.5.10
+      jest-cli:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.10.2)
+      jest-junit:
+        specifier: ^16.0.0
+        version: 16.0.0
+
 packages:
 
   /@ampproject/remapping@2.2.1:
